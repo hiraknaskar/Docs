@@ -1,0 +1,6 @@
+we nee dmainly 2 things here 
+1. Background
+2. Foreground
+
+
+we can use arbetry value by xyz-[value]
