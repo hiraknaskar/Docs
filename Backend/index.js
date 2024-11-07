@@ -19,10 +19,9 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: 'http://localhost:5173',
-        'https://docs-550b.onrender.com'// Your frontend URL
-    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-    allowedHeaders: ['Authorization', 'Content-Type'],
+        origin: ['http://localhost:5173', 'https://docs-550b.onrender.com'],// Your frontend URL
+        methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+        allowedHeaders: ['Authorization', 'Content-Type'],
     })
 );
 
